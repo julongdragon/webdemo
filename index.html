@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML5</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<style>
+body
+{ 
+margin:0; 
+padding:0;
+}
+#team
+{ 
+clear: both; 
+position:relative;  
+margin:0 auto; 
+text-align: center; 
+background:url(images/nEl11.png) no-repeat; 
+width:600px; 
+height:477px;
+}
+header
+{
+    clear: both;
+    color: #000000;
+    font-size: 0.8125em;
+    margin-left:auto; margin-right:auto;
+    /*max-width: 92.3em;*/
+    padding: 20px 0 10px;
+    /*position: relative;*/
+    text-align: center;
+    width: 80%;
+}
+#box
+{ 
+	text-align:left; 
+	width:100%;  
+	position: 
+	relative;
+}
+h1
+{ 
+	font-family:LeagueGothicRegular,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,sans-serif; 
+	color:#333333; 
+	font-size:5em;
+}
+h2{ 
+	font-family:MuseoSlab100,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,sans-serif;
+	color:#333333;
+	letter-spacing:-1px; line-height:1.4em;
+}
+aside{ width:300px; height:600px; background-color:#CCCCCC;}
+article{width:300px; height:200px; background-color:#FF3;}
+#boxnav{ margin-left:auto; margin-right:auto; height:200px; background-color:#F66;}
+
+        #nav ul
+        {
+            list-style:none outside none; display:block;
+        }
+    @media screen and (min-width: 400px) and (orientation: portrait)
+        {
+                #nav li
+                {  float:right;
+                   /* float: left;*/
+                    /*margin: 0 0 0 .5em;*/
+                    border:1px solid #000000;
+                }
+        }
+    @media screen and (min-width: 800px)
+        {
+            #nav
+            {
+                width: 200px;
+            }
+               #nav li
+                { float:right;
+                   /* float: left;*/
+                    /*margin: 0 0 0 .5em;*/
+                    border: none;               
+                }
+        }
+</style>
+</head>
+
+<body>
+<header>
+<h1>Responsive Web design</h1>
+<h2>we coding</h2>
+</header>
+
+<div id="boxnav">
+    <div id="tabs" style="text-align:center;">
+        <div id="one"><img src="images/nEl11.png" border="0" width="600" height="480" /></div>
+        <div id="two"><img src="images/Lo3h5.png" border="0" width="600" height="480" /></div>
+        <div id="three"><img src="images/FbGPT.png" border="0" width="600" height="480" /></div>
+        <div id="four"><img src="images/65Sky.png" border="0" width="600" height="480" /></div>
+        <div id="five"><img src="images/RM9OC.png" border="0" width="600" height="480" /></div>
+        <div id="six"><img src="images/tabtz.png" border="0" width="600" height="480" /></div>
+        <div id="seven"><img src="images/bi8WS.png" border="0" width="600" height="480" /></div>
+        <div id="eight"><img src="images/JoPPK.png" border="0" width="600" height="480" /></div>
+        <div id="nine"><img src="images/41d000_84798281acee280790477c4e0ac9c6e0.png_srz_859_602_75_22_0.50_1.20_0.00.png" border="0" width="600" height="480" /></div>
+      		
+        <ul>
+                <li><a href="#one"><span>my workspace</span></a></li>
+                <li><a href="#two"><span>my Friend</span></a></li>
+                <li><a href="#three"><span>my party</span></a></li>
+                <li><a href="#four"><span>my workspace</span></a></li>
+                <li><a href="#five"><span>my Friend</span></a></li>
+                <li><a href="#six"><span>my party</span></a></li>
+                <li><a href="#seven"><span>my party</span></a></li>
+                <li><a href="#eight"><span>my party</span></a></li>
+                <li><a href="#nine"><span>my party</span></a></li>
+            </ul>
+	</div>
+    
+
+
+</div>
+<script>
+$('document').ready(function(e) {
+$( "#boxnav #tabs" ).tabs();
+});
+
+</script>
+
+
+</body>
+</html>
